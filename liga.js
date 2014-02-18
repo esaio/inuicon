@@ -25,8 +25,15 @@
 	var icons;
 	if (!supportsProperty('fontFeatureSettings')) {
 		icons = {
-			'bone': '&#xe600;',
+			'fish': '&#xe601;',
+			'sakana': '&#xe601;',
+			'iwashi': '&#xe601;',
+			'fishbone': '&#xe602;',
+			'shachihoko': '&#xe603;',
+			'shrimp': '&#xe604;',
+			'ebi': '&#xe604;',
 			'hone': '&#xe600;',
+			'bone': '&#xe600;',
 			'mola': '&#xe000;',
 			'footprint': '&#xe001;',
 			'inu': '&#xe001;',

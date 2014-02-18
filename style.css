@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'inuicon';
-	src:url('fonts/inuicon.eot');
-	src:url('fonts/inuicon.eot?#iefix') format('embedded-opentype'),
-		url('fonts/inuicon.woff') format('woff'),
-		url('fonts/inuicon.ttf') format('truetype'),
-		url('fonts/inuicon.svg#inuicon') format('svg');
+	src:url('fonts/inuicon.eot?-qgh8gh');
+	src:url('fonts/inuicon.eot?#iefix-qgh8gh') format('embedded-opentype'),
+		url('fonts/inuicon.woff?-qgh8gh') format('woff'),
+		url('fonts/inuicon.ttf?-qgh8gh') format('truetype'),
+		url('fonts/inuicon.svg?-qgh8gh#inuicon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -31,6 +31,18 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-fish:before {
+	content: "\e601";
+}
+.icon-fish-bone:before {
+	content: "\e602";
+}
+.icon-shachihoko:before {
+	content: "\e603";
+}
+.icon-shrimp:before {
+	content: "\e604";
+}
 .icon-bone:before {
 	content: "\e600";
 }

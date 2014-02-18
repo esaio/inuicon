@@ -37,6 +37,9 @@
 			'mola': '&#xe000;',
 			'footprint': '&#xe001;',
 			'inu': '&#xe001;',
+			'nena': '&#xe605;',
+			'kusonemi': '&#xe605;',
+			'suya': '&#xe605;',
 			'0': 0
 		};
 		delete icons['0'];

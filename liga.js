@@ -25,6 +25,8 @@
 	var icons;
 	if (!supportsProperty('fontFeatureSettings')) {
 		icons = {
+			'niku': '&#xe606;',
+			'meet': '&#xe606;',
 			'fish': '&#xe601;',
 			'sakana': '&#xe601;',
 			'iwashi': '&#xe601;',

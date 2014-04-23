@@ -25,6 +25,10 @@
 	var icons;
 	if (!supportsProperty('fontFeatureSettings')) {
 		icons = {
+			'pplog': '&#xe606;',
+			'nena': '&#xe605;',
+			'kusonemi': '&#xe605;',
+			'suya': '&#xe605;',
 			'fish': '&#xe601;',
 			'sakana': '&#xe601;',
 			'iwashi': '&#xe601;',
@@ -37,9 +41,6 @@
 			'mola': '&#xe000;',
 			'footprint': '&#xe001;',
 			'inu': '&#xe001;',
-			'nena': '&#xe605;',
-			'kusonemi': '&#xe605;',
-			'suya': '&#xe605;',
 			'0': 0
 		};
 		delete icons['0'];

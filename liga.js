@@ -25,7 +25,9 @@
 	var icons;
 	if (!supportsProperty('fontFeatureSettings')) {
 		icons = {
-			'pplog': '&#xe606;',
+			'pplog': '&#xe607;',
+			'niku': '&#xe606;',
+			'meat': '&#xe606;',
 			'nena': '&#xe605;',
 			'kusonemi': '&#xe605;',
 			'suya': '&#xe605;',

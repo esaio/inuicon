@@ -25,9 +25,14 @@
 	var icons;
 	if (!supportsProperty('fontFeatureSettings')) {
 		icons = {
-			'pplog': '&#xe607;',
-			'niku': '&#xe606;',
-			'meat': '&#xe606;',
+			'piyo': '&#xe608;',
+			'lgtm': '&#xe608;',
+			'egg': '&#xe609;',
+			'wip': '&#xe609;',
+			'esa': '&#xe60a;',
+			'tori': '&#xe60a;',
+			'toriatama': '&#xe60a;',
+			'torihome': '&#xe60b;',
 			'nena': '&#xe605;',
 			'kusonemi': '&#xe605;',
 			'suya': '&#xe605;',
@@ -43,6 +48,9 @@
 			'mola': '&#xe000;',
 			'footprint': '&#xe001;',
 			'inu': '&#xe001;',
+			'niku': '&#xe606;',
+			'meat': '&#xe606;',
+			'pplog': '&#xe607;',
 			'0': 0
 		};
 		delete icons['0'];

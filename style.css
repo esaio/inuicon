@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'inuicon';
-	src:url('fonts/inuicon.eot?-k8ef5i');
-	src:url('fonts/inuicon.eot?#iefix-k8ef5i') format('embedded-opentype'),
-		url('fonts/inuicon.woff?-k8ef5i') format('woff'),
-		url('fonts/inuicon.ttf?-k8ef5i') format('truetype'),
-		url('fonts/inuicon.svg?-k8ef5i#inuicon') format('svg');
+	src:url('fonts/inuicon.eot?-4hbi3f');
+	src:url('fonts/inuicon.eot?#iefix-4hbi3f') format('embedded-opentype'),
+		url('fonts/inuicon.ttf?-4hbi3f') format('truetype'),
+		url('fonts/inuicon.woff?-4hbi3f') format('woff'),
+		url('fonts/inuicon.svg?-4hbi3f#inuicon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -17,20 +17,15 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-	
-	/* Enable Ligatures ================ */
-	-webkit-font-feature-settings: "liga";
-	-moz-font-feature-settings: "liga=1";
-	-moz-font-feature-settings: "liga";
-	-ms-font-feature-settings: "liga" 1;
-	-o-font-feature-settings: "liga";
-	font-feature-settings: "liga";
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-medicine:before {
+	content: "\e60c";
+}
 .icon-piyo:before {
 	content: "\e608";
 }

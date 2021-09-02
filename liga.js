@@ -25,6 +25,7 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'cross-team-search': '&#xe904;',
             'presentation': '&#xe900;',
             'clipboard': '&#xe901;',
             'ellipsis': '&#xe902;',

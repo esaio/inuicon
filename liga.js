@@ -25,6 +25,11 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'diff': '&#xe904;',
+            'plus-minus': '&#xe904;',
+            'watch': '&#xe905;',
+            'single-window': '&#xe906;',
+            'dual-window': '&#xe907;',
             'presentation': '&#xe900;',
             'clipboard': '&#xe901;',
             'ellipsis': '&#xe902;',

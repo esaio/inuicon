@@ -25,6 +25,10 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'diff': '&#xe905;',
+            'watch': '&#xe906;',
+            'single-window': '&#xe907;',
+            'dual-window': '&#xe908;',
             'cross-team-search': '&#xe904;',
             'presentation': '&#xe900;',
             'clipboard': '&#xe901;',

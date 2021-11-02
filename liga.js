@@ -25,6 +25,8 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'hash': '&#xe909;',
+            'number': '&#xe909;',
             'diff': '&#xe905;',
             'watch': '&#xe906;',
             'single-window': '&#xe907;',

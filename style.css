@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'inuicon';
-  src:  url('fonts/inuicon.eot?6yhemb');
-  src:  url('fonts/inuicon.eot?6yhemb#iefix') format('embedded-opentype'),
-    url('fonts/inuicon.ttf?6yhemb') format('truetype'),
-    url('fonts/inuicon.woff?6yhemb') format('woff'),
-    url('fonts/inuicon.svg?6yhemb#inuicon') format('svg');
+  src:  url('fonts/inuicon.eot?yv40k4');
+  src:  url('fonts/inuicon.eot?yv40k4#iefix') format('embedded-opentype'),
+    url('fonts/inuicon.ttf?yv40k4') format('truetype'),
+    url('fonts/inuicon.woff?yv40k4') format('woff'),
+    url('fonts/inuicon.svg?yv40k4#inuicon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -35,6 +35,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-hash:before {
+  content: "\e909";
+}
 .icon-diff:before {
   content: "\e905";
 }
